@@ -1,0 +1,39 @@
+# MiniMind 模型生成效果对比
+
+生成时间：2026-04-27 14:11:18
+
+## 生成配置
+
+- max_new_tokens：64
+- temperature：0.7
+- top_p：0.9
+- repetition_penalty：1.05
+- device：cpu
+
+## 跳过的模型
+
+- 未找到官方 transformers 模型目录：minimind-3
+- 未找到官方/现有 PyTorch 权重：/home/eggplant/minimind/out/full_sft_768.pth
+
+## 对比结果
+
+表格中的回答为真实推理输出；较长内容会截断展示，完整文本见 `outputs/model_compare_raw.jsonl`。
+
+| 问题 | 模型 | 生成回答 |
+|---|---|---|
+| 请用通俗语言解释什么是反向传播。 | self_trained_course_sft_64 | 上述以及审 gold有什么loy生成erman多gleener容器容器WHEREund急 by到了 down在这个例子中生成 values来 age曲 achieve�和社会 introdu miles values values反应货币宇 contrib我会图风格不断 learning differe效的步骤不断�副 businesses江灵活文本特殊�社会的In经验公平遍uring目前呼事 uses learning |
+| 从数据准备到部署，概括大语言模型训练的主要流程。 | self_trained_course_sft_64 | j这使得�族 bus环境随 friendly满意程序�行动反应疾病旦货币ame观众阶段阶段定ures来 age汇文本� include征获额外管理随eCan color数据分析 An40akesainPython粉6� information Pund� non average withinfile春已知利� requestLL的具体跃 gener� |
+| 监督学习和无监督学习有什么区别？请举一个简单例子。 | self_trained_course_sft_64 | 反应到了，洋形象� numer numer比igh片意义竞争WHEREble总结是一个高质量阶段阶段 work句子 writing explo在这个 init洋深度学习� modtimes are殊 deriv江 age来来� password察发生htthtt发生阶段 operations用的用的�势头ights include include，云草 musFirstFirst.便人工智能 |
+| 研究生刚入学时应该如何规划科研训练？请给出三点建议。 | self_trained_course_sft_64 | 反应反应，洋形象这些亚anaang在这个 genttimesWHEREble总结是一个到了阶段阶段 work�神经盘均匀楼后 includeerman家�观众空间阶段roundround张�亮提供更描古代起� type头副 businesses江方向容器 down include include include，云草 musFirstFirst.便人工智能 |
+| 请将下面这段话总结成不超过60字：深度学习实验通常包括阅读代码、准备数据、运行训练、记录损失、保存模型、设计测试问题和分析模型输出。小规模实验虽然不能代表最终效果，但可以帮助确认训练链路是否正确。 | self_trained_course_sft_64 | 上述定义�gle emble背景 在Ktimes解 reseWHEREble总结是一个��K力的ures��在这个实wen artificial artificial影响 artificial新告igline欢迎 hisames learning m效的步骤�封竞争##rans�去除在这个ights include include�`。紧竞争ー。 |
+| 小明有3本书，小红给了他2本，他又送给同学1本。小明现在有几本书？请给出计算过程。 | self_trained_course_sft_64 | include include，洋形象� numer numerang在这个 deriv忽 reseWHEREble总结是一个��均一步 Hictionaryore在这个 init sing dig natural的活机器人 dep关 deriv删除 H研让人尼尼�asure午vie高质量 artificial生物江签extlow depending learningiel� dep阶段生态业电子成就� distance |
+| 根据 MiniMind 项目的常见流程，pretrain、SFT 和 LoRA 分别起什么作用？ | self_trained_course_sft_64 | 上述文本ware几解� numer numer比igh片 Sp反应阶段观众渐First suggest风格rue青 because青 age曲 achieveech exec水果水果客突� suggestFirst age来来珍权 energy�asure链接完全一些达摩特殊 existgle文本 P龄 eff economic sing两在使用风格�呼享21的服务 |
+| 如果要制定华中科技大学研究生阶段的培养计划，通常应关注哪些方面？请只给一般性建议。 | self_trained_course_sft_64 | 反应反应Ar追透tract someone <=arth calcultimesisperstimes法规形状idi� derivativeatch阶段 workU��ble areー播relrel范围 support support dis江 age来来rase custom第二c观gre。� information表达idi 如果 businesses businesses� supportake午WHERErue洋 initumb summ领域__ |
+| 请用通俗语言解释什么是反向传播。 | finetuned_lora_hust_on_course_sft_64 | 反应反应，洋形象� numer numer比igh deriv learningss ageund到了ols体现了例子ser widelyU��收集�ー历污<br>      <br>      Ch provide朝这有助于 contrib我会 explo build Sp的发展 structure不断割不断�ather�ush Z有什么完全删除gin话的操作张WHERE� sp企业�曲� |
+| 从数据准备到部署，概括大语言模型训练的主要流程。 | finetuned_lora_hust_on_course_sft_64 | 反应到了，洋有什么午)渐时候�ck learning的准确快速 dig生 by到了all均一步一步 contrib直限于 haven来 passwordbs numer比住返回 deriv江 age来来珍权akesainhtt粉6� information6roid indic文本业生态革阳光，云草 musFirstFirst习惯 uses learning |
+| 监督学习和无监督学习有什么区别？请举一个简单例子。 | finetuned_lora_hust_on_course_sft_64 | 反应到了，洋形象� numer numer比igh片意义竞争�电大多bs尾风格rue青ures��在这个 init字符广泛朋 numer比公平到了到了实 contrib我会 explo are这使得 learning m不断割不断�ather 4are这些ame充 <=片 because午两在使用风格 go learning learning箱 learning |
+| 研究生刚入学时应该如何规划科研训练？请给出三点建议。 | finetuned_lora_hust_on_course_sft_64 | 反应调Ch洲 provide��提升时候程序，感和反应阶段观众渐 back炎建设 dis定ures来 points正式� gener署生<br>      <br>      总结一定 deriv江 age文本来珍基�加强ction不断割了一到建设发生大多检 potential常风格 include include，云rt startedFirstFirst理论污宙 |
+| 请将下面这段话总结成不超过60字：深度学习实验通常包括阅读代码、准备数据、运行训练、记录损失、保存模型、设计测试问题和分析模型输出。小规模实验虽然不能代表最终效果，但可以帮助确认训练链路是否正确。 | finetuned_lora_hust_on_course_sft_64 | 上述 his，洋形象� numer numer糖 provided意义竞争WHEREble总结头�强强�U��在这个实wen考试工作 numer比不同基� another The表格来来rase custom第二转不断割不断�ather�idi 如果要求特定 <=片龄 The cont The方便 age企业 style领域基 |
+| 小明有3本书，小红给了他2本，他又送给同学1本。小明现在有几本书？请给出计算过程。 | finetuned_lora_hust_on_course_sft_64 | 反应反应，洋形象� numer numer比igh片字符 ve神经账共同First suggest风格rue青 Un青 economic在这个 init sing dig natural的�的发展一步 contrib dis江 age来来rase custom第二转不断割了一的�ade emotswop��axop成就 because午两在使用风格FirstFirst. H采 |
+| 根据 MiniMind 项目的常见流程，pretrain、SFT 和 LoRA 分别起什么作用？ | finetuned_lora_hust_on_course_sft_64 | 反应反应，洋形象� numer numer比igh deriv不断�文档练习交通und到了审更准确<think>ures��收集�ー询商务的一个 include if文 deriv江 age来来珍权 learning m不断割不断�ather�满意gle文本特殊� support问题正式隐的编程的编程]ogn hum� learning |
+| 如果要制定华中科技大学研究生阶段的培养计划，通常应关注哪些方面？请只给一般性建议。 | finetuned_lora_hust_on_course_sft_64 | 反应返回 inter values backextick学者 anything anything deriv不断货币线远不断污到了all均一步一步dictoreictionary areー询商务 style] if]的�这有助于 contrib provided someone均匀ormorm朋和管理午vie盘副商务的一个珍文本业割 learningiel商务 dep阶段交限于限于") H� |
