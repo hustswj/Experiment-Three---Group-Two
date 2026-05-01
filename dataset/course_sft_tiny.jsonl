@@ -1,0 +1,8 @@
+{"conversations": [{"role": "user", "content": "什么是深度学习？"}, {"role": "assistant", "content": "深度学习是机器学习的一个分支，使用多层神经网络从数据中学习表示和规律。"}]}
+{"conversations": [{"role": "user", "content": "预训练和监督微调有什么区别？"}, {"role": "assistant", "content": "预训练主要学习通用语言规律，监督微调则使用指令和回答样本让模型更符合具体任务和对话格式。"}]}
+{"conversations": [{"role": "user", "content": "MiniMind 项目适合用来做什么？"}, {"role": "assistant", "content": "MiniMind 适合用来学习小型语言模型的结构、训练、微调和推理流程。"}]}
+{"conversations": [{"role": "user", "content": "如何观察训练是否有效？"}, {"role": "assistant", "content": "可以记录每个阶段的 loss，并绘制曲线。如果整体下降，通常说明模型在当前数据上学习到了模式。"}]}
+{"conversations": [{"role": "user", "content": "监督学习和无监督学习的区别是什么？"}, {"role": "assistant", "content": "监督学习依赖带标签的数据学习输入到输出的映射，无监督学习则从无标签数据中发现结构或分布规律。"}]}
+{"conversations": [{"role": "user", "content": "研究生应该怎样规划科研？"}, {"role": "assistant", "content": "可以先明确研究方向，系统阅读文献，提出可验证的问题，再通过实验和写作不断迭代。"}]}
+{"conversations": [{"role": "user", "content": "请用一句话总结大模型训练流程。"}, {"role": "assistant", "content": "大模型训练通常包括数据准备、预训练、监督微调、对齐或强化学习、评测和部署等步骤。"}]}
+{"conversations": [{"role": "user", "content": "什么是 LoRA 微调？"}, {"role": "assistant", "content": "LoRA 是一种参数高效微调方法，通过训练低秩增量参数来适配新任务，同时尽量保持基座模型不变。"}]}
